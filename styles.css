@@ -284,7 +284,8 @@ p {
   transform: translateY(5px) translateX(5px);
 }
 
-/*@media screen and (max-width: 1030px) {
-  .navitem:first-child { margin-right: 60px; 
+@media screen and (max-width: 500px) {
+  #teammembers {
+    display: block; 
   }
 }
