@@ -23,6 +23,20 @@
     transition: all 0.4s;
   }
 
+@media screen and {
+  
+}
+
+
+  .navbar-items {
+    width: 831px;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
   .navbar {
     /*color:#EEEEEE;*/
     padding: 0;
@@ -33,7 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    white-space: nowrap;
+    white-space: nowrap; 
     z-index: 100;
     
   }
@@ -62,7 +76,8 @@
   }
  
   .navitem:first-child {
-   margin-right: 500px;
+    margin-right: auto;
+   /*margin-right: 500px; */
   }
 
 
@@ -268,7 +283,7 @@ p {
   transform: translateY(5px) translateX(5px);
 }
 
-@media screen and (max-width: 1030px) {
-  .navitem:first-child { margin-right: 30px; 
+/*@media screen and (max-width: 1030px) {
+  .navitem:first-child { margin-right: 60px; 
   }
 }
