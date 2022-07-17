@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    scroll-padding-top: 84px; 
+  }
+  body { 
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    
+  }
+  .navitem {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    list-style:none;
+    margin-right: 8px;
+  }
+
+  .navitem:hover, a:hover {
+   /* filter: brightness(50%); */
+    color: rgb(255, 255, 255);
+    transform: scale(1.20);
+    transition: all 0.4s;
+  }
+
+  .navbar {
+    /*color:#EEEEEE;*/
+    padding: 0;
+    position: fixed;
+    background-color: #007765;
+    height: 84px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 100;
+    
+  }
+
+ /*a:hover {
+  filter: brightness(30%);
+  color: white;
+  transform: scale(1.20);
+}
+*/
+  a {
+   /* .myElement:hover {
+      filter: brightness(150%);
+    } */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .box {
+    color: black;
+    padding-top:84px;
+    display: grid;
+  }
+  .navitem a {
+    text-decoration: none;
+  }
+ 
+  .navitem:first-child {
+   margin-right: 500px;
+  }
+
+
+  .navitem:last-child {
+    margin-right: 2rem;
+  }
+.fbox {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-image: url("https://svgshare.com/i/j9A.svg");
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#box1 {
+  box-sizing: border-box;
+    max-width: 1119px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    width:100%;
+  
+    /*
+    height: 403px;
+    background: url("box1.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;*/
+}
+#box1-text {
+  
+    line-height: 84px;
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 72px;
+    
+}
+#box2, #box4, #box5 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 55px;
+    
+    
+   
+    
+}
+
+p {
+  max-width: 1119px; 
+  width: 100%;
+}
+
+
+#box2-text, #box4-text2, #box4-text1, .box4-1  {
+  font-size: 32px;
+  max-width: 1119px; 
+  margin-top: 16px;
+  width: 100%;
+        
+}
+#theproblem, #ppc, #theteam {
+    text-align: center;
+    color: #007765;
+    font-size: 64px;
+    
+
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1119px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    width:100%;
+  }
+  
+  .hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('https://i.ibb.co/PM6cMBn/image.png');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .hero__message {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+  }
+
+.box4-1 {
+    display: inline-flex;
+}
+   
+#ppc {
+}
+
+#box4-text1 {
+    margin: 16px 0px 40px 48px;
+}
+
+#coin {
+    margin: 16px 0px 35px;
+}
+
+#box4-text1, #box4-text2 {
+    font-size: 32px;
+}  
+
+#box5 {
+  background-color: #EEEEEE;
+}
+
+#theteam {
+  
+  margin-bottom: 32px;
+}
+
+#teammembers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  
+ /* margin: 32px, 0px, 84px;
+  gap: 30px;
+  display: grid;
+  grid-template-areas: 
+       "m1 m2 m3"
+       "m4 m5 m6"; */
+}
+#member {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+#member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+#member-role {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#footer {
+  width: 100%;
+  height: 176px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-text {
+  color: #fff;
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  max-width: 540px;
+  text-align: center;
+}
+
+#member:hover {
+  transform: scale(1.20);
+    
+    transition: all 0.4s;
+}
+
+#coin {
+  width: 115px;
+  height: 115px;
+  padding: 0;
+  margin: 0;
+  border-radius: 57.5px;
+  border-style: none;
+  box-shadow: 5px 5px 5px #007765;
+  
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  outline: none;
+}
+
+#coin:hover {
+  box-shadow: 5px 5px 1px gray;
+}
+
+#coin:active {
+  box-shadow: none;
+  transform: translateY(5px) translateX(5px);
+}
