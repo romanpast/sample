@@ -29,7 +29,7 @@
 
 
   .navbar-items {
-    width: 831px;
+    width: 1108px;
     display: flex;
     justify-content: flex-end;
     justify-items: center;
@@ -247,7 +247,6 @@ p {
 }
 
 #footer-text {
-  padding: 0 1rem 0;
   color: #fff;
   font-size: 18px;
   margin: auto;
