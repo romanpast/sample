@@ -269,6 +269,6 @@ p {
 }
 
 @media screen and (max-width: 1030px) {
-  .navitem:first-child { margin-right: 40px; 
+  .navitem:first-child { margin-right: 30px; 
   }
 }
