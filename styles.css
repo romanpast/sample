@@ -77,12 +77,13 @@
  
   .navitem:first-child {
     margin-right: auto;
+    margin-left: 1rem;
    /*margin-right: 500px; */
   }
 
 
   .navitem:last-child {
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 .fbox {
     padding-top: 160px;
