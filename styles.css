@@ -198,13 +198,8 @@ p {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  
- /* margin: 32px, 0px, 84px;
-  gap: 30px;
-  display: grid;
-  grid-template-areas: 
-       "m1 m2 m3"
-       "m4 m5 m6"; */
+  justify-items: center;
+  align-items: center;
 }
 #member {
   text-align: center;
@@ -271,4 +266,9 @@ p {
 #coin:active {
   box-shadow: none;
   transform: translateY(5px) translateX(5px);
+}
+
+@media screen and (max-width: 1030px) {
+  .navitem:first-child { margin-right: 60px; 
+  }
 }
